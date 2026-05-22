@@ -1,0 +1,21 @@
+# IDE
+.vs/
+*.user
+*.suo
+
+# Build artifacts
+bin/
+obj/
+Mtmu97.Application/obj/
+Mtmu97.Infrastructure/obj/
+Mtmu97.Domain/obj/
+Mtmu97.WebApi/obj/
+Mtmu97.Application/bin/
+Mtmu97.Infrastructure/bin/
+Mtmu97.Domain/bin/
+Mtmu97.WebApi/bin/
+
+# NuGet
+*.nupkg
+project.lock.json
+project.assets.json

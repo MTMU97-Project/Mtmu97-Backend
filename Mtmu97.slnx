@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Mtmu97.Application/Mtmu97.Application.csproj" />
+  <Project Path="Mtmu97.Domain/Mtmu97.Domain.csproj" />
+  <Project Path="Mtmu97.Infrastructure/Mtmu97.Infrastructure.csproj" />
+  <Project Path="Mtmu97.WebApi/Mtmu97.WebApi.csproj" />
+</Solution>
