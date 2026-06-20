@@ -4,21 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mtmu97.Domain.Entities
+namespace Mtmu97.Application.Features.Events.DTOs
 {
-    public class Event
+    public class CreateEventResponseDto
     {
         public Guid Id { get; set; }
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
-        public string ImageUrl { get; set; } = null!;
-        public int ImagePublicId { get; set; }
         public DateTime EventDate { get; set; }
         public string Location { get; set; } = null!;
-
-        //navigations
-
-        public ICollection<EventImage> EventImages { get; set; } = null!;
-
     }
 }
