@@ -7,25 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Interfaces\Commands\Queries\**" />
-    <EmbeddedResource Remove="Interfaces\Commands\Queries\**" />
-    <None Remove="Interfaces\Commands\Queries\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.16" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Mtmu97.Domain\Mtmu97.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\Events\Mapper\" />
-    <Folder Include="Features\Events\Validators\" />
-    <Folder Include="Features\Events\Queries\" />
-    <Folder Include="Interfaces\Repositories\" />
   </ItemGroup>
 
 </Project>
